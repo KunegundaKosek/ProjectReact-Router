@@ -1,0 +1,27 @@
+.home {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.home-item__container {
+    width: 30%;
+    margin: 20px auto;
+}
+
+
+@media screen and (min-width: 802px) and (max-width: 1200px) {
+    .home-item__container {
+        width: 45%;
+    }
+}
+
+@media (max-width: 801px) {
+    .home-item__container {
+        width: 90%;
+    }
+}
+
+.home-item__img {
+    width: 100%;
+    border-radius: 10px;
+}
