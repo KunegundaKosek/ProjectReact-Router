@@ -12,8 +12,9 @@ import Button from '@mui/material/Button';
 import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
 import AdbIcon from '@mui/icons-material/Adb';
+import { Link } from 'react-router-dom';
 
-const pages = [];
+const pages = ['Strona główna'];
 const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
 
 function ResponsiveAppBar() {
@@ -95,6 +96,7 @@ function ResponsiveAppBar() {
                         </Menu>
                     </Box>
                     <AdbIcon sx={{ display: { xs: 'flex', md: 'none' }, mr: 1 }} />
+
                     <Typography
                         variant="h5"
                         noWrap
@@ -113,6 +115,7 @@ function ResponsiveAppBar() {
                     >
                         HOME
                     </Typography>
+
                     <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
                         {pages.map((page) => (
                             <Button
@@ -124,6 +127,7 @@ function ResponsiveAppBar() {
                             </Button>
                         ))}
                     </Box>
+
 
                     <Box sx={{ flexGrow: 0 }}>
                         <Tooltip title="Open settings">
@@ -153,7 +157,10 @@ function ResponsiveAppBar() {
                                 </MenuItem>
                             ))}
                         </Menu>
+
                     </Box>
+
+
                 </Toolbar>
             </Container>
         </AppBar>
