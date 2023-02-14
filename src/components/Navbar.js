@@ -41,6 +41,10 @@ function ResponsiveAppBar() {
             <Container maxWidth="xl">
                 <Toolbar disableGutters>
                     <AdbIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} />
+
+
+
+
                     <Typography
                         variant="h6"
                         noWrap
@@ -60,6 +64,9 @@ function ResponsiveAppBar() {
                     </Typography>
 
                     <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
+
+
+
                         <IconButton
                             size="large"
                             aria-label="account of current user"
@@ -69,7 +76,13 @@ function ResponsiveAppBar() {
                             color="inherit"
                         >
                             <MenuIcon />
+
                         </IconButton>
+
+
+
+
+
                         <Menu
                             id="menu-appbar"
                             anchorEl={anchorElNav}
