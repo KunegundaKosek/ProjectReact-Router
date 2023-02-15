@@ -4,7 +4,7 @@ import classes from './TodoInput.module.css';
 
 const TodoInput = (props) => {
 
-  const [isValid, setIsValid] = useState(false);
+  const [isValid, setIsValid] = useState(true);
   const [enteredValue, setEnteredValue] = useState('');
 
   const formSubmitHandler = event => {

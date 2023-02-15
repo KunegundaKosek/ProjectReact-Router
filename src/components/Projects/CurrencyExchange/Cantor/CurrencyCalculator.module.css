@@ -1,0 +1,16 @@
+.cantor {
+    width: 90%;
+    margin: auto;
+}
+
+.currency__box {
+    width: 50%;
+    border: 2px solid black;
+    margin: 20px auto;
+    padding: 50px;
+    text-align: center;
+}
+
+.currency__box label {
+    display: block;
+}

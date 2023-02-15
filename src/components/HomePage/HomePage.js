@@ -33,7 +33,9 @@ const HomePage = () => {
 
             <div className={classes['home-item__container']}>
 
-                <img className={classes['home-item__img']} src="https://i.wpimg.pl/1200x/filerepo.grupawp.pl/api/v1/display/embed/4dd0546d-9af0-4fde-8eb4-fb988a664cad" alt="miś" />
+                <Link to='/cantor'>
+                    <img className={classes['home-item__img']} src="https://i.wpimg.pl/1200x/filerepo.grupawp.pl/api/v1/display/embed/4dd0546d-9af0-4fde-8eb4-fb988a664cad" alt="miś" />
+                </Link>
 
             </div>
 
