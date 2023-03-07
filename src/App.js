@@ -16,7 +16,7 @@ function App() {
       <HomePage />
       <BrowserRouter>
         <Routes>
-          <Route path='/ProjectReact-Router/' element={<HomePage />} />
+          <Route path='/' element={<HomePage />} />
           <Route path='/expenses' element={<ExpensePage />} />
           <Route path='/todo' element={<Todo />} />
           <Route path='/counter' element={<Counter />} />
