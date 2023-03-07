@@ -13,7 +13,7 @@
 
 <details>
 <summary>Click here to see general information about <b>Project</b>!</summary>
-<b>In this application </b>you will find my projects that I wrote while learning React. I am currently doing the course "React - The Complete Guide (incl Hooks, React Router, Redux)" on Udemy.
+<b>In this application </b>you will find my projects that I wrote while learning React. I am currently doing the course "React - The Complete Guide (incl Hooks, React Router, Redux) on Udemy.
 </details>
 
 ### TECHNOLOGIES
