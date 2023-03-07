@@ -28,7 +28,7 @@ Clone the repo #### `git clone https://github.com/KunegundaKosek/ProjectReact-Ro
 
 Install NPM packages #### `npm install`
 
-#### `nps start`
+#### `npm start`
 
 ### APPLICATION VIEW
 
