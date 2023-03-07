@@ -1,6 +1,6 @@
 # Welcome to my project!
 
-[link do strony](https://kunegundakosek.github.io/PageKunegunda/)
+[link do strony](https://kunegundakosek.github.io/ProjectReact-Router/)
 
 ## Content of Project
 * [General info](#general-info)
