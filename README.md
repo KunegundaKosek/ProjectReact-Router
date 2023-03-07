@@ -1,5 +1,7 @@
 # Welcome to my project!
 
+[link do strony](https://kunegundakosek.github.io/PageKunegunda/)
+
 ## Content of Project
 * [General info](#general-info)
 * [Technologies](#technologies)
