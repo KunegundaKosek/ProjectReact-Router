@@ -1,20 +1,31 @@
-# Getting Started with Create React App
+# Welcome to my project!
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Content of Project
+*[General info](#general-info)
 
-## Available Scripts
+## GENERAL INFO
+In this application you will find my projects that I wrote while learning React. I am currently doing the course "React - The Complete Guide (incl Hooks, React Router, Redux)
+" on Udemy.
 
-In the project directory, you can run:
+## TECHNOLOGIES
+In this project I used the following technologies:
 
-### `npm start`
+## SETUP
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+How to run the application on your computer?
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Use the command
+### `git clone https://github.com/KunegundaKosek/ProjectReact-Router.git`
+to clone the repository then
 
-### `npm test`
+### `npm install`
+
+After installing the packages, run the application with the command
+### `nps start`
+
+
+
+
 
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
