@@ -1,35 +1,40 @@
 # Welcome to my project!
 
+[link do strony](https://kunegundakosek.github.io/ProjectReact-Router/)
+
 ## Content of Project
 
 - [General info](#general-info)
 - [Technologies](#technologies)
 - [Setup](#Setup)
-- [More detailed information about modules](#More detailed information about modules)
+- [Application view](#application-view)
 
 ### GENERAL INFO
 
-In this application you will find my projects that I wrote while learning React. I am currently doing the course "React - The Complete Guide (incl Hooks, React Router, Redux)
-" on Udemy.
+<details>
+<summary>Click here to see general information about <b>Project</b>!</summary>
+<b>In this application </b>you will find my projects that I wrote while learning React. I am currently doing the course "React - The Complete Guide (incl Hooks, React Router, Redux)" on Udemy.
+</details>
 
 ### TECHNOLOGIES
 
 In this project I used the following technologies:
 
+<ul>
+  <li>React</li>
+  <li>React Router</li>
+  <li>Material UI</li>
+  <li>Bootstrap</li>
+ </ul>
+
 ### SETUP
 
 How to run the application on your computer?
 
-Use the command
+Clone the repo #### `git clone https://github.com/KunegundaKosek/ProjectReact-Router.git`
 
-### `git clone https://github.com/KunegundaKosek/ProjectReact-Router.git`
+Install NPM packages #### `npm install`
 
-to clone the repository then
+#### `npm start`
 
-### `npm install`
-
-After installing the packages, run the application with the command
-
-### `nps start`
-
-## MORE DETAILED INFORMATION ABOUT MODULES
+### APPLICATION VIEW
