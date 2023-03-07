@@ -4,14 +4,22 @@
 * [General info](#general-info)
 * [Technologies](#technologies)
 * [Setup](#Setup)
-* [More detailed information about modules](#More detailed information about modules)
+* [Application view](#application-view)
 
 ## GENERAL INFO
-In this application you will find my projects that I wrote while learning React. I am currently doing the course "React - The Complete Guide (incl Hooks, React Router, Redux)
-" on Udemy.
+<details>
+<summary>Click here to see general information about <b>Project</b>!</summary>
+<b>In this application </b>you will find my projects that I wrote while learning React. I am currently doing the course "React - The Complete Guide (incl Hooks, React Router, Redux)" on Udemy.
+</details>
 
 ## TECHNOLOGIES
 In this project I used the following technologies:
+<ul>
+  <li>React</li>
+  <li>React Router</li>
+  <li>Material UI</li>
+  <li>~~Bootstrap~~</li>
+ </ul>
 
 ## SETUP
 
@@ -26,7 +34,8 @@ to clone the repository then
 After installing the packages, run the application with the command
 ### `nps start`
 
-## MORE DETAILED INFORMATION ABOUT MODULES
+## APPLICATION VIEW
+
 
 
 
