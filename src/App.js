@@ -13,6 +13,7 @@ function App() {
   return (
     <>
       <Navbar />
+      <HomePage />
       <BrowserRouter>
         <Routes>
           <Route path='/ProjectReact-Router/' element={<HomePage />} />
