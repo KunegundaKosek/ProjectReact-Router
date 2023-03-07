@@ -15,7 +15,7 @@ function App() {
       <Navbar />
       <BrowserRouter>
         <Routes>
-          <Route path='/' element={<HomePage />} />
+          <Route path='/ProjectReact-Router/' element={<HomePage />} />
           <Route path='/expenses' element={<ExpensePage />} />
           <Route path='/todo' element={<Todo />} />
           <Route path='/counter' element={<Counter />} />
