@@ -42,14 +42,11 @@ function ResponsiveAppBar() {
                 <Toolbar disableGutters>
                     <AdbIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} />
 
-
-
-
                     <Typography
                         variant="h6"
                         noWrap
                         component="a"
-                        href="/"
+                        href="/ProjectReact-Router/"
                         sx={{
                             mr: 2,
                             display: { xs: 'none', md: 'flex' },
@@ -66,7 +63,6 @@ function ResponsiveAppBar() {
                     <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
 
 
-
                         <IconButton
                             size="large"
                             aria-label="account of current user"
@@ -78,10 +74,6 @@ function ResponsiveAppBar() {
                             <MenuIcon />
 
                         </IconButton>
-
-
-
-
 
                         <Menu
                             id="menu-appbar"
@@ -114,7 +106,7 @@ function ResponsiveAppBar() {
                         variant="h5"
                         noWrap
                         component="a"
-                        href=""
+                        href="/ProjectReact-Router/"
                         sx={{
                             mr: 2,
                             display: { xs: 'flex', md: 'none' },
@@ -172,7 +164,6 @@ function ResponsiveAppBar() {
                         </Menu>
 
                     </Box>
-
 
                 </Toolbar>
             </Container>
