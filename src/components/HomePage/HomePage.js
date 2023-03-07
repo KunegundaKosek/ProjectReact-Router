@@ -1,15 +1,21 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import classes from './HomePage.module.css';
+import project1 from '../../img/project1.gif';
+import project2 from '../../img/project2.gif';
+import project3 from '../../img/project3.gif';
+
 
 const HomePage = () => {
     return (
+
         <div className={classes.home} >
 
             <div className={classes['home-item__container']}>
 
+
                 <Link to='/expenses'>
-                    <img className={classes['home-item__img']} src="./img/project1.gif" alt="aplikacja wydatki" />
+                    <img className={classes['home-item__img']} src={project1} alt="aplikacja wydatki" />
                 </Link>
 
             </div>
@@ -18,7 +24,7 @@ const HomePage = () => {
             <div className={classes['home-item__container']}>
 
                 <Link to='/todo'>
-                    <img className={classes['home-item__img']} src="./img/project2.gif" alt="miś" />
+                    <img className={classes['home-item__img']} src={project2} alt="miś" />
                 </Link>
 
             </div>
@@ -26,7 +32,7 @@ const HomePage = () => {
             <div className={classes['home-item__container']}>
 
                 <Link to='/counter'>
-                    <img className={classes['home-item__img']} src="./img/project3.gif" alt="miś" />
+                    <img className={classes['home-item__img']} src={project3} alt="miś" />
                 </Link>
 
             </div>
