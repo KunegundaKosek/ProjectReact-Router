@@ -22,6 +22,7 @@ In this project I used the following technologies:
 
 <ul>
   <li>React</li>
+  <li>react-router-dom</li>
   <li>React Router</li>
   <li>Material UI</li>
   <li>Bootstrap</li>
@@ -31,9 +32,9 @@ In this project I used the following technologies:
 
 How to run the application on your computer?
 
-Clone the repo #### `git clone https://github.com/KunegundaKosek/ProjectReact-Router.git`
+Clone the repo `git clone https://github.com/KunegundaKosek/ProjectReact-Router.git`
 
-Install NPM packages #### `npm install`
+Install NPM packages `npm install`
 
 #### `npm start`
 
