@@ -1,15 +1,18 @@
 {
   "files": {
     "main.css": "/ProjectReact-Router/static/css/main.ddcae9ab.css",
-    "main.js": "/ProjectReact-Router/static/js/main.3c29571d.js",
+    "main.js": "/ProjectReact-Router/static/js/main.ca7cdbb3.js",
     "static/js/787.ec704a7a.chunk.js": "/ProjectReact-Router/static/js/787.ec704a7a.chunk.js",
+    "static/media/project1.gif": "/ProjectReact-Router/static/media/project1.5106fd4db8a9b16d1808.gif",
+    "static/media/project2.gif": "/ProjectReact-Router/static/media/project2.4060b741873bcd08bd84.gif",
+    "static/media/project3.gif": "/ProjectReact-Router/static/media/project3.ef8a002680905282e2ed.gif",
     "index.html": "/ProjectReact-Router/index.html",
     "main.ddcae9ab.css.map": "/ProjectReact-Router/static/css/main.ddcae9ab.css.map",
-    "main.3c29571d.js.map": "/ProjectReact-Router/static/js/main.3c29571d.js.map",
+    "main.ca7cdbb3.js.map": "/ProjectReact-Router/static/js/main.ca7cdbb3.js.map",
     "787.ec704a7a.chunk.js.map": "/ProjectReact-Router/static/js/787.ec704a7a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ddcae9ab.css",
-    "static/js/main.3c29571d.js"
+    "static/js/main.ca7cdbb3.js"
   ]
 }
