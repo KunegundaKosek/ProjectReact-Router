@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, Link, HashRouter } from 'react-router-dom';
 import HomePage from "./components/HomePage/HomePage";
 import Navbar from './components/Navbar';
 import Counter from "./components/Projects/Counter/Counter";
@@ -14,15 +14,15 @@ function App() {
     <>
       <Navbar />
       <HomePage />
-      <BrowserRouter>
+      <HashRouter>
         <Routes>
-          <Route path='/' element={<HomePage />} />
+          <Route path='/ProjectReact-Router/' element={<HomePage />} />
           <Route path='/expenses' element={<ExpensePage />} />
           <Route path='/todo' element={<Todo />} />
           <Route path='/counter' element={<Counter />} />
           <Route path='/cantor' element={<CurrencyCalculator />} />
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
 
     </>
   );
